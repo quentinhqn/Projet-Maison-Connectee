@@ -15,6 +15,6 @@ J'ai par la suite réalisé une maquette en carton (voir ci dessous) afin de dim
 
 On voulait d'abord partir sur un interrupteur pour détécter l'ouverture de la porte (et des fenêtres), mais on s'est rendu compte que l'interrupteur exerçait une force contraire ne permettant pas la fermeture de la porte.
 On a donc pensé à un interrupteur "artisanal", c'est à dire une tige métalique placée sur la porte qui vient taper une plaque reliée à la masse quand la porte est fermée.
-Le code correspondant se trouve dans [ce dossier](Projet-Maison-Connectee/Projet/ouverturePorte/ouverturePorte.ino)
+Le code correspondant se trouve [ici](https://github.com/LesDeuxM/Projet-Maison-Connectee/blob/master/Projet/ouverturePorte/ouverturePorte.ino)
       
       
