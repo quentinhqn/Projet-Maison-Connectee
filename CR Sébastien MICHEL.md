@@ -22,8 +22,7 @@ Le code correspondant se trouve [ici](https://github.com/LesDeuxM/Projet-Maison-
 
 Au début de cette séance, j'ai réalisé des mesures sur la maquette pour placer tous les composants. J'ai placer le capteur de mouvement à différents endroits et fait des tests pour trouver là où il marchait le mieux. 
 
-![Alt text](https://github.com/LesDeuxM/Projet-Maison-Connectee/blob/master/Annexe/v?raw=true "Capteur")
-        Projet-Maison-Connectee/Annexe/MiseEnPlace_Capteur.jpg
+![Alt text](https://github.com/LesDeuxM/Projet-Maison-Connectee/blob/master/Annexe/MiseEnPlace_Capteur.jpg?raw=true "Capteur")
       
 
 
