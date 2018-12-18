@@ -18,3 +18,6 @@ Lors de cette séance, j'ai ajouté le code à l'Arduino ainsi qu'à l'applicati
 
 J'ai essayé de faire un popup (dialogAlert sur Android) qui s'ouvrirai lorsque quelqu'un sonne à la porte, permettant de lui ouvrir le vérou (caractérisé par le Servo Moteur), mais à chaque fois que l'on sonnait, l'application se fermait (problème de code sûrement) Je prévois pour la prochaine séance de faire fonctionner cette fonction.
 Finnalement, j'ai réorganisé le code Arduino et préparé les emplacements de chaque pin pour les nouveaux capteurs, les prochains buzzer ainsi que les nouvelles LED.
+
+Ci joint l'avancé de l'application (Dans la démo, on teste la sonette et l'alarme) : 
+https://drive.google.com/file/d/13t0iF7GPJzR1jNBM_e7JL7vdc0fB-TrO/view?usp=sharing
