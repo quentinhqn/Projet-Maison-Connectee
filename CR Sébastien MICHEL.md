@@ -20,7 +20,14 @@ Le code correspondant se trouve [ici](https://github.com/LesDeuxM/Projet-Maison-
       
 # Séance du 18 Décembre 2018 (Séance #2)
 
-Au début de cette séance, j'ai réalisé des mesures sur la maquette pour placer tous les composants. J'ai placer le capteur de mouvement à différents endroits et fait des tests pour trouver là où il marchait le mieux. J'ai ensuite éssayé de placer le moteur qui servira de verrou à différents endroits pour fermer convenablement la porte.
+Au début de cette séance, j'ai réalisé des mesures sur la maquette pour placer tous les composants. J'ai placer le capteur de mouvement à différents endroits et fait des tests pour trouver là où il marchait le mieux. 
+
+![Alt text](https://github.com/LesDeuxM/Projet-Maison-Connectee/blob/master/Annexe/v?raw=true "Capteur")
+        Projet-Maison-Connectee/Annexe/MiseEnPlace_Capteur.jpg
+      
+
+
+J'ai ensuite éssayé de placer le moteur qui servira de verrou à différents endroits pour fermer convenablement la porte.
 En placant la LED qui devait servire d'ampoule pour eclairer la pièce, je me suis rendu compte que les petites LED n'étaient pas assez puissante pour qu'on les voit, il faut donc des LED plus grosses.
 
 En placant les composants que l'ont avait deja, jai remarqué qu''il manquait de place dans la maquette que j'ai ralisée, j'ai donc décidé dagrandir la pièce et donc de supprimer la seconde pièce de l'étage pour ne faire qu'une pièce par étage.
