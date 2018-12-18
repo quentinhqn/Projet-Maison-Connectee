@@ -14,3 +14,7 @@ De plus, j'ai connecté la sonette à l'Arduino et lorsque l'on appuie dessus et
 
 
 # Séance du 18 Décembre 2018 (Séance #2)
+Lors de cette séance, j'ai ajouté le code à l'Arduino ainsi qu'à l'application Android permettant la détection de mouvement dans la maison. Le capteur utilisé est le HC-SR501. Avant d'arriver, j'avais pris soin de faire les réglages de sensibilité su capteur (plus facile chez soi car en classe, il y a toujours du mouvement dans la salle, ce qui rend difficile les réglages). En effet, sans réglage, il renvoyait toujours 1 (= il détectait toujours du mouvement), même lorsqu'il n'y en avait pas. A ce jour, la détection d'un mouvement met sur le téléphone un son d'alarme. Il a fallu rajouter des delay() au code côté Arduino pour que le son ne soit joué qu'une fois à chaque détection (sans delay, il etait joué au moins 20 fois). 
+
+J'ai essayé de faire un popup (dialogAlert sur Android) qui s'ouvrirai lorsque quelqu'un sonne à la porte, permettant de lui ouvrir le vérou (caractérisé par le Servo Moteur), mais à chaque fois que l'on sonnait, l'application se fermait (problème de code sûrement) Je prévois pour la prochaine séance de faire fonctionner cette fonction.
+Finnalement, j'ai réorganisé le code Arduino et préparé les emplacements de chaque pin pour les nouveaux capteurs, les prochains buzzer ainsi que les nouvelles LED.
