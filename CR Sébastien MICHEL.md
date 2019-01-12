@@ -33,3 +33,20 @@ En placant les composants que l'on avait déjà, jai remarqué qu''il manquait d
 
 Par la suite j'ai programmé le servomoteur en liaison avec l'application pour pouvoir controler la fermeture et l'ouverture du verrou. J'ai rencontré un problème pour trouver le bon angle de fermeture car le moteur n'est pas assez précis si on lui donne un angle en degré. 
 Il y a aussi fallu changer l'application et créer une nouvelle case dans l'application dédiée au verrou.
+
+
+# Séance du 11 Janvier 2019 (Séance #3)
+
+Pendant cette séance je me suis occupé de la maquette finale de notre maison. 
+
+Dans un premier temps j'ai fini de placer les différents capteurs, bouton et autre périphériques sur la maquette en carton pour dimensionner correctement la maquette finale. 
+
+![Alt text](https://github.com/LesDeuxM/Projet-Maison-Connectee/blob/master/Annexe/EmplacementDuMoteur.jpg?raw=true "Moteur")
+
+![Alt text](https://github.com/LesDeuxM/Projet-Maison-Connectee/blob/master/Annexe/EmplacementSonette.jpg?raw=true "Sonette")
+
+On a donc décidé de réaliser la maquette finale en bois en la faisant au FabLab de Sophia.  Il a donc fallu chercher et télécharger le logiciel nécessaire à la réalisation du "plan" de la maison, j'ai pris Inkscape complété par BoxGenerator. Ne trouvant pas de doc claire pour ce que je voulais faire, je suis donc allé au FabLab, où d'autres groupes m'ont expliqué le fonctionnement du logiciel. J'ai fini par réaliser le "plan" que voici :
+
+![Alt text](https://github.com/LesDeuxM/Projet-Maison-Connectee/blob/master/Annexe/PlanMaisonEnBois.jpg?raw=true "Plan")
+      
+
