@@ -21,3 +21,12 @@ Finnalement, j'ai réorganisé le code Arduino et préparé les emplacements de 
 
 Ci joint l'avancé de l'application (Dans la démo, on teste la sonette et l'alarme) : 
 https://drive.google.com/file/d/13t0iF7GPJzR1jNBM_e7JL7vdc0fB-TrO/view?usp=sharing
+
+# Séance du 11 Janvier 2019 (Séance #3)
+Lors de cette séance, j'ai avancé l'application Android permettant de commander la maison. Voici la liste des fonctions ajoutées :
+Info : Toutes les fonctions  expliquées ci-desssous sont montrées dans la vidéo ci-joint :
+https://drive.google.com/open?id=1RcVH9dT-0l4eX9bJahoKkkDsa0AhNvdw
+- J'ai remplacé les boutons "Allumer lumière, chauffage, ouvrir porte" etc... par des interrupteurs (switchs). Lors du lancement de l'application, le programme demande à l'Arduino l'état de chaque élément (exemple : lumièreSalon = 1 => lumière salon allumée, porte = 0 => porte fermée...). Les switchs sont alors mis au bon état dès le lancement. On peut ensuite changer leur état simplement en cliquant dessus. L'ergonomie en est bien meilleure. 
+- Lorsque quelqu'un sonne, en plus de jouer un bruit de sonette sur le téléphone, un popup ("DialogAlert" sur Android) demande si l'on ouvre la porte. Si l'on ouvre la porte, l'état sur Switch "Porte" est changé.
+- J'ai effectué la migration de l'Arduino Uno vers l'Arduino Mega car l'Arduino Uno ne nous permettait pas continuer le projet, avec les futurs composants qui vont arriver prochainement (led RGB, capteur Température, Buzzer ...) Tout fonctionne comme avant.
+- Enfin, dans le peu de temps qu'il me restait, j'ai ajouté une SeekBar dans l'application qui permettra, quand on aura la led RGB de chosir la couleur de cette dernière. Cette barre va donner un chiffre de 0 à 16 777 216, ce qui donnera une couleur en decimal, convertie en hexadécimal (type #ffee12) puis enfin, l'arduino convertira ce code en RGB pour par la suite mettre la LED à la couleur souhaitée.
