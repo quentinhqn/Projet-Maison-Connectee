@@ -26,7 +26,7 @@ Au début de cette séance, j'ai réalisé des mesures sur la maquette pour plac
       
 
 
-J'ai ensuite essayé de placer le moteur qui servira de verrou à différents endroits pour fermer convenablement la porte.
+J'ai ensuite essayé de placer le moteur (modèle : SG90) qui servira de verrou à différents endroits pour fermer convenablement la porte.
 En placant la LED qui devait servire d'ampoule pour éclairer la pièce, je me suis rendu compte que les petites LED n'étaient pas assez puissantes pour qu'on les voit, il faut donc des LED plus grosses.
 
 En placant les composants que l'on avait déjà, jai remarqué qu''il manquait de place dans la maquette que j'ai ralisé, j'ai donc décidé d'agrandir la pièce et donc de supprimer la seconde pièce de l'étage pour ne faire qu'une pièce par étage.
