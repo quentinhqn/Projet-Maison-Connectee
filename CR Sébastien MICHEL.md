@@ -50,3 +50,15 @@ On a donc décidé de réaliser la maquette finale en bois en la faisant au FabL
 ![Alt text](https://github.com/LesDeuxM/Projet-Maison-Connectee/blob/master/Annexe/PlanMaisonEnBois.jpg?raw=true "Plan")
       
 
+# Séance du 18 Janvier 2019 (Séance #4)
+
+Je suis allé au FabLab pour faire la découpe de la maison, mais il y a eu un problème au niveau des dimensions. La découpeuse laser ne supporte qu'un certain format de planches. C'est donc pour cela que nous avons tout revu sur la maquette, la maison n'a maintenant plus qu'un étage ce qui a permis d'imprimer au format souhaité. J'ai donc refait le plan et je suis retourné au FabLab découper la maison :
+
+
+![Alt text](https://github.com/LesDeuxM/Projet-Maison-Connectee/blob/master/Annexe/DecoupeLaser.jpg?raw=true "Découpe")
+
+Après avoir assemblé les pièces, j'ai vérifier que les dimensions concordaient avec tous les composants. Une des pièces avait due être séparée en deux pour des raison de dimension de découpe, on a eu du mal à la recoller donc on à utiliser du scotch peu estétique.
+
+A la fin de la séance j'ai paramétré et codé le programme pour le digicode que nous placerons à l'entrée pour pouvoir ouvrir la porte sans l'application ni téléphone.
+
+![Alt text](https://github.com/LesDeuxM/Projet-Maison-Connectee/blob/master/Annexe/Digicode.jpg?raw=true "Digicode")
