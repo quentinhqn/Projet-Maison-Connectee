@@ -30,3 +30,11 @@ https://drive.google.com/open?id=1RcVH9dT-0l4eX9bJahoKkkDsa0AhNvdw
 - Lorsque quelqu'un sonne, en plus de jouer un bruit de sonette sur le téléphone, un popup ("DialogAlert" sur Android) demande si l'on ouvre la porte. Si l'on ouvre la porte, l'état sur Switch "Porte" est changé.
 - J'ai effectué la migration de l'Arduino Uno vers l'Arduino Mega car l'Arduino Uno ne nous permettait pas continuer le projet, avec les futurs composants qui vont arriver prochainement (led RGB, capteur Température, Buzzer ...) Tout fonctionne comme avant.
 - Enfin, dans le peu de temps qu'il me restait, j'ai ajouté une SeekBar dans l'application qui permettra, quand on aura la led RGB de chosir la couleur de cette dernière. Cette barre va donner un chiffre de 0 à 16 777 216, ce qui donnera une couleur en decimal, convertie en hexadécimal (type #ffee12) puis enfin, l'arduino convertira ce code en RGB pour par la suite mettre la LED à la couleur souhaitée.
+
+# Séance du 18 Janvier 2019 (Séance #4)
+Lors de cette séance nous nous sommes tout d'abord rendu au Fablab avec les planches de bois d'épaisseur 5mm pour construire notre maquette à la découpeuse laser. Vu que les planches n'étaient pas à la bonne dimension pour la découpeuse laser, on a utilisé une scie sauteuse pour les mettre aux bonne dimensions. Une fois les plances découpées, il a fallu attendre que la découpeuse face le travail.
+![alt text](https://github.com/LesDeuxM/Projet-Maison-Connectee/blob/master/Annexe/decoupeuse%20laser.jpg?raw=true "Problème de delay")
+![alt text](https://github.com/LesDeuxM/Projet-Maison-Connectee/blob/master/Annexe/Scie%20sauteuse.jpg?raw=true "Problème de delay")
+J'ai pendant ce temps modifié le code permettant l'affichage au choix d'un ou 3 curseurs pour la couleur de la LED RGB du salon. La partie XML du code est faite (partie XML : ensembles des déclarations des boutons, switch etc dans l'appli Android), il ne manque plus qu'à faire que le switch affiche en fonction du choix 1 ou 3 curseurs, dans la partie code Java de l'appli. Je finaliserai ceci dans les prochains jours.
+Une fois les pièces de la maison découpées, nous avons du modifié une pièce à l'aide d'une lime pour qu'elle soit à la bonne dimension. 
+
