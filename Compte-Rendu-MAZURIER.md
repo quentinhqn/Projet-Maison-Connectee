@@ -36,5 +36,5 @@ Lors de cette séance nous nous sommes tout d'abord rendu au Fablab avec les pla
 ![alt text](https://github.com/LesDeuxM/Projet-Maison-Connectee/blob/master/Annexe/decoupeuse%20laser.jpg?raw=true "Problème de delay")
 ![alt text](https://github.com/LesDeuxM/Projet-Maison-Connectee/blob/master/Annexe/Scie%20sauteuse.jpg?raw=true "Problème de delay")
 J'ai pendant ce temps modifié le code permettant l'affichage au choix d'un ou 3 curseurs pour la couleur de la LED RGB du salon. La partie XML du code est faite (partie XML : ensembles des déclarations des boutons, switch etc dans l'appli Android), il ne manque plus qu'à faire que le switch affiche en fonction du choix 1 ou 3 curseurs, dans la partie code Java de l'appli. Je finaliserai ceci dans les prochains jours.
-Une fois les pièces de la maison découpées, nous avons du modifié une pièce à l'aide d'une lime pour qu'elle soit à la bonne dimension. 
+Une fois la maison assemblée, nous nous sommes rendu compte qu'une pièce était trop petite. Nous avons donc utilisé les bords laissés par la découpeuse, et collé avec de la colle et du scotch pour allonger la pièce, sauf que ça la rendait maintenant un peu trop grande. Nous avons donc raccourci les bords avec une lime.
 
