@@ -39,3 +39,5 @@ J'ai pendant ce temps modifié le code permettant l'affichage au choix d'un ou 3
 
 Une fois la maison assemblée, nous nous sommes rendu compte qu'une pièce était trop petite. Nous avons donc utilisé les bords laissés par la découpeuse, et collé avec de la colle et du scotch pour allonger la pièce, sauf que ça la rendait maintenant un peu trop grande. Nous avons donc raccourci les bords avec une lime.
 
+# Séance du 06 Février 2019 (Séance #5)
+Lors de cette séance, j'ai commencé par faire des recherches sur la manière qui serait la plus simple pour contrôler/recevoir les informations de tous les capteurs de la maison. La solution qui semble être la plus simple à mettre en oeuvre est une "Realtime Database". C'est une base de donnée stockée sur un compte FireBase (outil développé par Google) et qui permet de stocker dans notre cas les variables d'état de led, sonette,..
