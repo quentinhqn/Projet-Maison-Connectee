@@ -77,8 +77,7 @@ S'en suit l'instalation du digicode ainsi que la réalisation de tous les trous 
 
 # Séance du 13 Fevrier 2019 (Séance #6)
 
-Dans la continuité de la dernière séance, j'ai durant celle ci fini de percer les trous pour faire passer les cables mais j'ai aussi réalisé des soudures et l'agencement des cables pour les relier à la carte Arduino dans le cas où ils étaient trop courts.
-
+Dans la continuité de la dernière séance, j'ai durant celle ci fini de percer les trous pour faire passer les cables mais j'ai aussi réalisé des soudures et l'agencement des cables pour les relier à la carte Arduino. Il à donc fallu ralonger des cables dans le cas où ils étaient trop courts.
 
 ![Alt text](https://github.com/LesDeuxM/Projet-Maison-Connectee/blob/master/Annexe/CarteArduino.jpg?raw=true "Arduino")
 
@@ -86,4 +85,4 @@ Une fois les soudures faites, il a fallu les placer et les couvrir de scotch pou
 
 ![Alt text](https://github.com/LesDeuxM/Projet-Maison-Connectee/blob/master/Annexe/Soudure.jpg?raw=true "Soudure")
 
-Les modules sont donc tous branchés, et il va falloir tester
+Les modules sont donc tous branchés, et il va falloir tester si tout fonctionne ensemble avec les nouveaux branchements.
