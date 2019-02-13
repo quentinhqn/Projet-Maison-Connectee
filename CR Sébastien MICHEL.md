@@ -62,3 +62,28 @@ Après avoir assemblé les pièces, j'ai vérifier que les dimensions concordaie
 A la fin de la séance j'ai paramétré et codé le programme pour le digicode que nous placerons à l'entrée pour pouvoir ouvrir la porte sans l'application ni téléphone.
 
 ![Alt text](https://github.com/LesDeuxM/Projet-Maison-Connectee/blob/master/Annexe/Digicode.jpg?raw=true "Digicode")
+
+# Séance du 06 Fevrier 2019 (Séance #5)
+
+Maintenant que la majorité des modules fonctionnent et que la maquette est finie, on a décidé de tout installer sur la maquette. 
+
+Dans un premier temps, il à donc fallu fixer la porte et la fenetre. Les charnières ayant trop de jeu pour la porte on a décidé de mettre du gros scotch qui permet de la maintenir bien en place.
+
+Ensuite j'ai fabriqué le système de detection d'ouverture de la porte et de la fenêtre. Pour se faire j'ai découpé dans une plaque métailque deux bouts que l'on colle sur le montant et sur la partie mobile, qui viennent se toucher à la manière d'un interupteur quand la porte et/ou fenêtre est fermée.
+
+![Alt text](https://github.com/LesDeuxM/Projet-Maison-Connectee/blob/master/Annexe/Fermeture.jpg?raw=true "Fermeture")
+
+S'en suit l'instalation du digicode ainsi que la réalisation de tous les trous qui vont avec pour faire passer les fils jusque dans le toit où se trouve la carte Arduino.
+
+# Séance du 13 Fevrier 2019 (Séance #6)
+
+Dans la continuité de la dernière séance, j'ai durant celle ci fini de percer les trous pour faire passer les cables mais j'ai aussi réalisé des soudures et l'agencement des cables pour les relier à la carte Arduino dans le cas où ils étaient trop courts.
+
+
+![Alt text](https://github.com/LesDeuxM/Projet-Maison-Connectee/blob/master/Annexe/CarteArduino.jpg?raw=true "Arduino")
+
+Une fois les soudures faites, il a fallu les placer et les couvrir de scotch pour éviter les faux contacts. 
+
+![Alt text](https://github.com/LesDeuxM/Projet-Maison-Connectee/blob/master/Annexe/Soudure.jpg?raw=true "Soudure")
+
+Les modules sont donc tous branchés, et il va falloir tester
