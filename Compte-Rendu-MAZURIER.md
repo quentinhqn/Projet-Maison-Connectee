@@ -53,5 +53,15 @@ Ci dessous un schéma montrant le nouveau moyen de communication mis en oeuvre :
 
 # Séance du 13 Février 2019 (Séance #6)
 Durant cette séance, j'ai travaillé principalement sur le module Wifi ESP32. Le but était que l'ESP puisse récupérer les valeurs stockées dans la base de donnée FireBase. Après un certain temps de recherche, j'ai trouvé une librairie qui permet de faire communiquer l'ESP et la base de donnée. (https://github.com/ioxhop/IOXhop_FirebaseESP32).
-J'ai grace à cette librairie pu établir la connexion entre l'ESP et la database. Je peux récupérer et modifier les valeurs contenues dans la base de donnée. Il va par la suite falloir que l'ESP communique toutes ces données à l'Arduino pour qu'il réagisse en conséquence. L'Arduino devra aussi communiquer les évènements de la maison à l'ESP (types sonette, detecteru mouvement, pluie, effraction). On ne connecte pas tous les capteurs & composants directement à l'ESP car ils fonctionnent pour la plupart en 5V alors que l'ESP ne donne que du 3V3. De plus, nous avons besoin de beaucoup de ports (pour le clavier par ex.) donc nous gardons l'Arduino Mega.
+
+Je peux donc à ce stade récupérer et modifier les valeurs contenues dans la base de donnée FireBase, à partir de l'ESP.
+
+Il va par la suite falloir que l'ESP communique toutes ces données à l'Arduino pour qu'il réagisse en conséquence. L'Arduino devra aussi communiquer les évènements de la maison à l'ESP (types sonette, detecteru mouvement, pluie, effraction). 
+
+On ne connecte pas tous les capteurs & composants directement à l'ESP car ils fonctionnent pour la plupart en 5V alors que l'ESP ne donne que du 3V3. De plus, nous avons besoin de beaucoup de ports (pour le clavier par ex.) donc nous gardons l'Arduino Mega.
+
+J'ai aussi continué la nouvelle version de l'Application Android pour que cette dernière mette à jour à l'ouverture de l'Appli les switchs et les barres RGB en fonction des valeurs contenues dans la base de donnée. 
+J'ai aussi rajouté une fonction qui grise les barres de la LED du salon lorsque cette dernière est etteinte (Voir vidéo ouverture application ci dessous)
+https://drive.google.com/open?id=19PgDLSF_0CexZjGUuD3kIShT8tevaGxK
+
 En fin de séance, j'ai réalisé les soudures des contacts se trouvant à la fenêtre, à la porte ainsi que la sonette (1 fil vers 2 fils "->=").
