@@ -60,8 +60,9 @@ Il va par la suite falloir que l'ESP communique toutes ces données à l'Arduino
 
 On ne connecte pas tous les capteurs & composants directement à l'ESP car ils fonctionnent pour la plupart en 5V alors que l'ESP ne donne que du 3V3. De plus, nous avons besoin de beaucoup de ports (pour le clavier par ex.) donc nous gardons l'Arduino Mega.
 
-J'ai aussi continué la nouvelle version de l'Application Android pour que cette dernière mette à jour à l'ouverture de l'Appli les switchs et les barres RGB en fonction des valeurs contenues dans la base de donnée. 
-J'ai aussi rajouté une fonction qui grise les barres de la LED du salon lorsque cette dernière est etteinte (Voir vidéo ouverture application ci dessous)
+J'ai aussi continué la nouvelle version de l'Application Android pour que cette dernière mette à jour à l'ouverture l'état des switchs et des barres RGB en fonction des valeurs récupérées dans la base de donnée. 
+J'ai aussi rajouté une fonction qui grise les barres de choix de couleur de lumière du salon lorsque cette dernière est etteinte (Voir vidéo ouverture application ci dessous)
+
 https://drive.google.com/open?id=19PgDLSF_0CexZjGUuD3kIShT8tevaGxK
 
 En fin de séance, j'ai réalisé les soudures des contacts se trouvant à la fenêtre, à la porte ainsi que la sonette (1 fil vers 2 fils "->=").
