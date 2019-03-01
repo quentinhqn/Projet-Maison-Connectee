@@ -66,3 +66,6 @@ J'ai aussi rajouté une fonction qui grise les barres de choix de couleur de lum
 https://drive.google.com/open?id=19PgDLSF_0CexZjGUuD3kIShT8tevaGxK
 
 En fin de séance, j'ai réalisé les soudures des contacts se trouvant à la fenêtre, à la porte ainsi que la sonette (1 fil vers 2 fils "->=").
+
+# Séance du 27 Février 2019 (Séance #7)
+Durant cette, j'ai travaillé sur la communication entre l'ESP 32 et l'Arduino. Cette liaison s'est avérée.. compliquée. Dans le sens ESP -> Arduino : pas de soucis. Mais impossible de recevoir des données de l'Arduino sur l'ESP, malgré le pont diviseur de tension mis en place pour abaisser la tensions du Tx de l'Arduino (5V) en 3.3V . Après de nombreuses tetatives infructueuses, je n'ai pas trouvé de solution à ce problème, tout comme 2 autes groupes de la classe. Je pense que le problème vient du pont de resistance, les tutoriels sur Internet utilisaient un convertisseur de niveau logique 5V->3.3V bidirectionnel... EN COURS D'ECRITURE
