@@ -86,3 +86,10 @@ Une fois les soudures faites, il a fallu les placer et les couvrir de scotch pou
 ![Alt text](https://github.com/LesDeuxM/Projet-Maison-Connectee/blob/master/Annexe/Soudure.jpg?raw=true "Soudure")
 
 Les modules sont donc tous branchés, et il va falloir tester si tout fonctionne ensemble avec les nouveaux branchements.
+
+# Séance du 27 Fevrier 2019 (Séance #7)
+
+Maintenant que les modules sont branchés, je les ai éssayé un par un séparement pour verifier que les branchements étaient bons. J'ai rencontré un problème avec le digicode dont la matrice dépend des branchements, elle était donc inversée. C'est à dire que les touches ne renvoyaient pas le bon chiffre. J'ai dû modifier le code pour trouver le bon ordre des pins. 
+Le deuxième soucis que j'ai rencontré est avec la détéction d'ouverture de la porte. En effet, deux plaques métaliques sont sensées rentrer en contact lorsque la porte est fermée, or la porte ferme mal et s'ouvre légérement dès qu'on la lache. IL a donc fallu trouver un moyen de la bloquer légérement lorsque qu'elle est totalement fermée.
+
+Ensuite j'ai essayé de faire fonctionner le capteur de température que servira à faire un "thermostat" pour la maison, et ainsi modifier le chauffage caractérisé par une LED rouge. J'ai d'ailleurs découpé dans du PVC semi transparent ce qui représentera le radiateur. Malheureusement la plaque de PVC semble trop épaisse et les variations d'intensité de la LED ne se voient que très légérement, il va donc falloir que j'essaie une autre méthode.
